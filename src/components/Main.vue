@@ -42,6 +42,7 @@
     .main__button {
         width: 200px;
         height: 44px;
+        margin: 0 0 40px;
         background: #FFC700;
         border-radius: 50px;
         border: none;

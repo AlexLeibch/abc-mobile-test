@@ -1,8 +1,5 @@
 <template>
-  <Header/>
-  <info/>
-  <promo/>
-  <Main/>
+    <router-view></router-view>
 </template>
 
 
@@ -12,16 +9,17 @@
     import Info from './components/Info.vue'
     import Promo from './components/Promo.vue'
     import Main from './components/Main.vue'
+    import Footer from './components/Footer.vue'
+    import FirstQuestion from './components/FirstQuestion.vue'
   export default {
     components: {
       Header,
       Info,
       Promo,
-      Main
+      Main,
+      Footer,
+      FirstQuestion
       },
-
-
-
   }
 
 

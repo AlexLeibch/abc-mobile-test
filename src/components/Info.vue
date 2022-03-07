@@ -2,7 +2,7 @@
     <div class="info">
         <h1 class="info__title">Пройдите точный и быстрый</h1>
         <p class="info__subtitle">ТЕСТ НА ОПРЕДЕЛЕНИЕ <br>IQ</p>
-        <button class="info__button">пройти тест</button>
+        <router-link to="/question1"><button class="info__button">пройти тест</button></router-link>
         <div class="info__wrapper">
             <p class="info__text">И получите рекомендации <br>по развитии своего интелекта</p>
             <p class="info__text info__text_white">и улучшению финансового благосостояния и личной жизни</p>
